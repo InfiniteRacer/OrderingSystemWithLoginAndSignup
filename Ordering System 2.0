@@ -715,6 +715,7 @@ def enter():
     
     global choice
     global cost
+    global cart
     
     choice=input("Enter item number here: ")
     
@@ -891,6 +892,7 @@ def cartmenutwo():
 def deleteitems():
     
     global cost
+    global cart
     
     print("Enter '1' to cancel and go back to cart menu.")
     itemdelete=input("Enter the item number you entered to add the item (Without the hash): ")
